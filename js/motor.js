@@ -1,4 +1,3 @@
-
 function peticionServidor(d1)
 {
     let ajax1 = new XMLHttpRequest();
@@ -22,6 +21,7 @@ function peticionServidor(d1)
 window.addEventListener("load", function(event){
     // Establecer una referecia de los elementos
     const b1 = document.getElementById("b1");
+    const b2 = document.getElementById("b2");
     const d1 = document.getElementById("d1");
 
     // Asociar el elementoal evento y llamada a la función
